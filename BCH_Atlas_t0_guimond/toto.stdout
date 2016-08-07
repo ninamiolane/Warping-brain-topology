@@ -1,0 +1,3398 @@
+Launching LCC log-demons with input image of Dimension 2 
+Launching LCC log-demons with input image of Dimension 2 
+
+
+I/O PARAMETERS
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0010.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0010_8_p1.2.nii.gz
+  Mask image path                            : 
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0002.nii.gz
+  Output transformation path                   : SVF_0010_8_p1.2.mha
+  Output displacement field path               : Transform_0010_8_p1.2.mha
+
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0002_8_p1.2.nii.gz
+METHOD PARAMETERS
+  Mask image path                            : 
+  Iterations                                   : [ 30, 20, 10 ]
+  Output transformation path                   : SVF_0002_8_p1.2.mha
+  Similarity metric:                           : LCC
+  Output displacement field path               : Transform_0002_8_p1.2.mha
+
+METHOD PARAMETERS
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Iterations                                   : [ 30, 20, 10 ]
+  Trade-off parameter                          : 0.15
+  Similarity metric:                           : LCC
+  Boundary Checking                            : true
+  Similarity Criterion standard deviation      : 3 (world unit)
+Regularizer: Harmonic + Bending energy           
+  Trade-off parameter                          : 0.15
+  Weight of harmonic energy term               :0
+  Boundary Checking                            : true
+  Weight of bending energy term                :1e-06
+Regularizer: Harmonic + Bending energy           
+  Update field standard deviation              : 0 (world unit)
+  Weight of harmonic energy term               :0
+  Terms in BCH expansion                       : 2
+
+  Weight of bending energy term                :1e-06
+  Interpolator type                     : linear
+  Update field standard deviation              : 0 (world unit)
+STARTING MAIN PROGRAM
+  Terms in BCH expansion                       : 2
+
+  Registering images                    :   Interpolator type                     : linear
+Starting Registration LCC 
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0007.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0007_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0007_8_p1.2.mha
+  Output displacement field path               : Transform_0007_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0014.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0014_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0014_8_p1.2.mha
+  Output displacement field path               : Transform_0014_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+ PARAMETERS
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0016.nii.gz
+  Output transformation path                   : SVF_0021_8_p1.2.mha
+  Output displacement field path               : Transform_0021_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0016_8_p1.2.nii.gz
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Mask image path                            : 
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Output transformation path                   : SVF_0016_8_p1.2.mha
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Output displacement field path               : Transform_0016_8_p1.2.mha
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+METHOD PARAMETERS
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Iterations                                   : [ 30, 20, 10 ]
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Similarity metric:                           : LCC
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Trade-off parameter                          : 0.15
+  Terms in BCH expansion                       : 2
+
+  Registering images                    :   Boundary Checking                            : true
+  Interpolator type                     : linear
+Starting Registration LCC 
+Regularizer: Harmonic + Bending energy           
+STARTING MAIN PROGRAM
+  Weight of harmonic energy term               :0
+  Registering images                    :   Weight of bending energy term                :1e-06
+Starting Registration LCC 
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0023.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0023_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0023_8_p1.2.mha
+  Output displacement field path               : Transform_0023_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0028.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0028_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0028_8_p1.2.mha
+  Output displacement field path               : Transform_0028_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0032.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0032_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0032_8_p1.2.mha
+  Output displacement field path               : Transform_0032_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+ :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0039.nii.gz
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0040.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0040_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0040_8_p1.2.mha
+  Output displacement field path               : Transform_0040_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0039_8_p1.2.nii.gz
+  Similarity metric:                           : LCC
+  Mask image path                            : 
+  Output transformation path                   : SVF_0039_8_p1.2.mha
+  Output displacement field path               : Transform_0039_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0044.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0044_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0044_8_p1.2.mha
+  Output displacement field path               : Transform_0044_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0043.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0043_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0043_8_p1.2.mha
+  Output displacement field path               : Transform_0043_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0046.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0046_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0046_8_p1.2.mha
+  Output displacement field path               : Transform_0046_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0048.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0048_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0048_8_p1.2.mha
+  Output displacement field path               : Transform_0048_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0050.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0050_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0050_8_p1.2.mha
+  Output displacement field path               : Transform_0050_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0058.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0058_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0058_8_p1.2.mha
+  Output displacement field path               : Transform_0058_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0060.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0060_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0060_8_p1.2.mha
+  Output displacement field path               : Transform_0060_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0063.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0063_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0063_8_p1.2.mha
+  Output displacement field path               : Transform_0063_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0064.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0064_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0064_8_p1.2.mha
+  Output displacement field path               : Transform_0064_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+ath               : Transform_0080_8_p1.2.mha
+
+METHOD PARAMETERS
+  Output displacement field path               : Transform_0071_8_p1.2.mha
+
+METHOD PARAMETERS
+
+I/O PARAMETERS
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0066.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0066_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0066_8_p1.2.mha
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0075.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0075_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0075_8_p1.2.mha
+  Output displacement field path               : Transform_0075_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Output displacement field path               : Transform_0066_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0079.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0079_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0079_8_p1.2.mha
+  Output displacement field path               : Transform_0079_8_p1.2.mha
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+
+METHOD PARAMETERS
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Registering images                    : Starting Registration LCC 
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Registering images                    : Starting Registration LCC 
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0081.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0081_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0081_8_p1.2.mha
+  Output displacement field path               : Transform_0081_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0087.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0087_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0087_8_p1.2.mha
+  Output displacement field path               : Transform_0087_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+Creating images
+Creating images
+th                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0088.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0088_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0088_8_p1.2.mha
+  Output displacement field path               : Transform_0088_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0098.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0098_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0098_8_p1.2.mha
+  Output displacement field path               : Transform_0098_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0102.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0102_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0102_8_p1.2.mha
+  Output displacement field path               : Transform_0102_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0089.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0089_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0089_8_p1.2.mha
+  Output displacement field path               : Transform_0089_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0104.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0104_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0104_8_p1.2.mha
+  Output displacement field path               : Transform_0104_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0106.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0106_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0106_8_p1.2.mha
+  Output displacement field path               : Transform_0106_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with inCreating images
+OK
+ion 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0108.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0108_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0108_8_p1.2.mha
+  Output displacement field path               : Transform_0108_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0111.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0111_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0111_8_p1.2.mha
+  Output displacement field path               : Transform_0111_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standarCreating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+IN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0112.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0112_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0112_8_p1.2.mha
+  Output displacement field path               : Transform_0112_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0113.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0113_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0113_8_p1.2.mha
+  Output displacement field path               : Transform_0113_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0005.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0005_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0005_8_p1.2.mha
+  Output displacement field path               : Transform_0005_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+ng images                    : Starting Registration LCC 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0116.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0116_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0116_8_p1.2.mha
+  Output displacement field path               : Transform_0116_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                        
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0008.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0008_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0008_8_p1.2.mha
+  Output displacement field path               : Transform_0008_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator tygistering images                    : Starting Registration LCC 
+ng images                    : Starting Registration LCC 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0012.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0012_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0012_8_p1.2.mha
+  Output displacement field path               : Transform_0012_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+ng images                    : Starting Registration LCC 
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0134.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0134_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0134_8_p1.2.mha
+  Output displacement field path               : Transform_0134_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0001.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0001_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0001_8_p1.2.mha
+  Output displacement field path               : Transform_0001_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0004.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0004_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0004_8_p1.2.mha
+  Output displacement field path               : Transform_0004_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+                    : Real_SS_Final_S0MNI_to_fin_Ref_0013_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0013_8_p1.2.mha
+  Output displacement field path               : Transform_0013_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0017.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0017_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0017_8_p1.2.mha
+  Output displacement field path               : Transform_0017_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0022.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0022_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0022_8_p1.2.mha
+  Output displacement field path               : Transform_0022_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0027.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0027_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0027_8_p1.2.mha
+  Output displacement field path               : Transform_0027_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+rity Criterion standard deviation      : 3 (world unit)
+  Output displacement field path               : Transform_0029_8_p1.2.mha
+  Trade-off parameter                          : 0.15
+
+  Boundary Checking                            : true
+METHOD PARAMETERS
+Regularizer: Harmonic + Bending energy           
+  Iterations                                   : [ 30, 20, 10 ]
+  Weight of harmonic energy term               :0
+  Similarity metric:                           : LCC
+  Weight of bending energy term                :1e-06
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Update field standard deviation              : 0 (world unit)
+  Trade-off parameter                          : 0.15
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Boundary Checking                            : true
+  Registering images                    : Regularizer: Harmonic + Bending energy           
+Starting Registration LCC 
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0034.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0034_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0034_8_p1.2.mha
+  Output displacement field path               : Transform_0034_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0035.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0035_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0035_8_p1.2.mha
+  Output displacement field path               : Transform_0035_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-deCreating images
+OK
+ge of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0042.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0042_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0042_8_p1.2.mha
+  Output displacement field path               : Transform_0042_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0045.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0045_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0045_8_p1.2.mha
+  Output displacement field path               : Transform_0045_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0047.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0047_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0047_8_p1.2.mha
+  Output displacement field path               : Transform_0047_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0049.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0049_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0049_8_p1.2.mha
+  Output displacement field path               : Transform_0049_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0051.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0051_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0051_8_p1.2.mha
+  Output displacement field path               : Transform_0051_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0052.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0052_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0052_8_p1.2.mha
+  Output displacement field path               : Transform_0052_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0055.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0055_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0055_8_p1.2.mha
+  Output displacement field path               : Transform_0055_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0057.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0057_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0057_8_p1.2.mha
+  Output displacement field path               : Transform_0057_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0061.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0061_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0061_8_p1.2.mha
+  Output displacement field path               : Transform_0061_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0062.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0062_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0062_8_p1.2.mha
+  Output displacement field path               : Transform_0062_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0068.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0068_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0068_8_p1.2.mha
+  Output displacement field path               : Transform_0068_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0069.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0069_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0069_8_p1.2.mha
+  Output displacement field path               : Transform_0069_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0070.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0070_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0070_8_p1.2.mha
+  Output displacement field path               : Transform_0070_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0073.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0073_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0073_8_p1.2.mha
+  Output displacement field path               : Transform_0073_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0076.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0076_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0076_8_p1.2.mha
+  Output displacement field path               : Transform_0076_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0077.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0077_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0077_8_p1.2.mha
+  Output displacement field path               : Transform_0077_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0078.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0078_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0078_8_p1.2.mha
+  Output displacement field path               : Transform_0078_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0085.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0085_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0085_8_p1.2.mha
+  Output displacement field path               : Transform_0085_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0086.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0086_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0086_8_p1.2.mha
+  Output displacement field path               : Transform_0086_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OAOK
+
+full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0091.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0091_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0091_8_p1.2.mha
+  Output displacement field path               : Transform_0091_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0094.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0094_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0094_8_p1.2.mha
+  Output displacement field path               : Transform_0094_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0095.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0095_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0095_8_p1.2.mha
+  Output displacement field path               : Transform_0095_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : Creating images
+orseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0096.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0096_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0096_8_p1.2.mha
+  Output displacement field path               : Transform_0096_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+LaunOK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+S_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0097.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0097_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0097_8_p1.2.mha
+  Output displacement field path               : Transform_0097_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0100.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0100_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0100_8_p1.2.mha
+  Output displacement field path               : Transform_0100_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Subjects2D/Real_SS_Final_S0MNI_spline_0101.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0101_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0101_8_p1.2.mha
+  Output displacement field path               : Transform_0101_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Creating images
+g-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0109.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0109_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0109_8_p1.2.mha
+  Output displacement field path               : Transform_0109_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0105.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0105_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0105_8_p1.2.mha
+  Output displacement field path               : Transform_0105_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0117.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0117_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0117_8_p1.2.mha
+  Output displacement field path               : Transform_0117_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0121.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0121_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0121_8_p1.2.mha
+  Output displacement field path               : Transform_0121_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0122.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0122_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0122_8_p1.2.mha
+  Output displacement field path               : Transform_0122_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0126.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0126_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0126_8_p1.2.mha
+  Output displacement field path               : Transform_0126_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0135.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0135_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0135_8_p1.2.mha
+  Output displacement field path               : Transform_0135_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0129.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0129_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0129_8_p1.2.mha
+  Output displacement field path               : Transform_0129_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Launching LCC log-demons with input image of Dimension 2 
+
+I/O PARAMETERS
+  Fixed image path                             : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_p1.2_8.nii.gz
+  Moving image path                            : /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_0128.nii.gz
+  Output image path                            : Real_SS_Final_S0MNI_to_fin_Ref_0128_8_p1.2.nii.gz
+  Mask image path                            : 
+  Output transformation path                   : SVF_0128_8_p1.2.mha
+  Output displacement field path               : Transform_0128_8_p1.2.mha
+
+METHOD PARAMETERS
+  Iterations                                   : [ 30, 20, 10 ]
+  Similarity metric:                           : LCC
+  Similarity Criterion standard deviation      : 3 (world unit)
+  Trade-off parameter                          : 0.15
+  Boundary Checking                            : true
+Regularizer: Harmonic + Bending energy           
+  Weight of harmonic energy term               :0
+  Weight of bending energy term                :1e-06
+  Update field standard deviation              : 0 (world unit)
+  Terms in BCH expansion                       : 2
+
+  Interpolator type                     : linear
+STARTING MAIN PROGRAM
+  Registering images                    : Starting Registration LCC 
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : Creating images
+OK
+
+OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+Creating images
+OK
+  Writing stationary velocity field    Creating images
+displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing image                        : OK
+
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : Creating images
+OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+          : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : Creating images
+OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+  Writing image                        : OK
+
+OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            :OK
+
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : splacement field            : OK
+  Writing image                        : OK
+  Writing image                        : OK
+
+OK
+
+CreaCreating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+ting images
+Creating images
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : Creating images
+OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Creating images
+OK
+  Writing stationary velocity field     : OK
+  Writing displacement field            : OK
+  Writing image                        : OK
+
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0001_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0002_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0004_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0005_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0007_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0008_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0010_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0012_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0013_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0014_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0016_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0017_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0021_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0022_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0023_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0026_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0027_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0028_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0029_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0030_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0032_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0034_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0035_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0036_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0037_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0039_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0040_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0042_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0043_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0044_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0045_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0046_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0047_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0048_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0049_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0050_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0051_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0052_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0053_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0055_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0056_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0057_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0058_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0060_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0061_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0062_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0063_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0064_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0066_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0067_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0068_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0069_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0070_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0071_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0073_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0075_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0076_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0077_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0078_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0079_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0080_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0081_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0085_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0086_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0087_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0088_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0089_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0090_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0091_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0094_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0095_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0096_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0097_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0098_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0100_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0101_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0102_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0104_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0105_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0106_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0108_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0109_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0111_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0112_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0113_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0114_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0116_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0117_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0119_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0120_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0121_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0122_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0124_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0126_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0128_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0129_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0134_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/SVF_0135_8_p1.2.mha...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0001_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0002_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0004_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0005_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0007_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0008_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0010_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0012_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0013_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0014_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0016_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0017_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0021_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0022_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0023_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0026_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0027_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0028_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0029_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0030_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0032_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0034_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0035_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0036_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0037_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0039_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0040_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0042_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0043_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0044_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0045_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0046_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0047_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0048_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0049_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0050_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0051_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0052_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0053_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0055_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0056_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0057_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0058_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0060_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0061_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0062_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0063_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0064_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0066_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0067_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0068_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0069_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0070_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0071_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0073_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0075_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0076_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0077_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0078_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0079_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0080_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0081_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0085_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0086_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0087_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0088_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0089_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0090_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0091_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0094_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0095_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0096_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0097_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0098_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0100_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0101_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0102_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0104_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0105_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0106_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0108_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0109_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0111_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0112_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0113_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0114_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0116_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0117_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0119_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0120_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0121_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0122_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0124_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0126_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0128_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0129_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0134_8_p1.2.nii.gz...
+Reading /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0135_8_p1.2.nii.gz...
+Registered Subjects # found: 98 
+Nmean= 9 
+Computing Standard Deviation of registered Subjects...
+Computing whitened atlas...
+Computing and saving MS of whitened atlas...
+Starting Topological Denoising...
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2015 The MathWorks, Inc.
+                   R2015a (8.5.0.197613) 64-bit (glnxa64)
+                             February 12, 2015
+
+[Warning: Duplicate directory name: /epi/asclepios2/nmiolane/Scripts/Currents] 
+[Warning: Duplicate directory name: /epi/asclepios2/nmiolane/Scripts/Currents] 
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+	Academic License
+
+[Warning: Name is nonexistent or not a directory:
+/user/nmiolane/home/mosek/mosek.lic] 
+[> In path (line 109)
+  In addpath (line 86)
+  In reconstructionTopo2D (line 11)
+  In run (line 96)] 
+hello[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In monotonic_biharmonic (line 78)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Elapsed time is 7.107673 seconds.
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7540 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.230969 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 2.64215s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7187 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.17504 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 5.03084s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6969 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.189642 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 7.70913s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6784 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.131951 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 9.96527s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6287 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.269718 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 12.5194s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8156 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0458645 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 14.9544s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6578 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.153247 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 17.4818s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7779 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0469123 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 19.7935s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8237 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0639388 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 22.1498s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7320 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.286465 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 24.8628s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 9856 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0174532 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 27.4572s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6836 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.587233 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 29.8873s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6719 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.019343 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 32.0896s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6392 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.560797 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 34.8295s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 10799 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.976455 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 37.4648s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 9918 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.374074 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 40.1s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 10389 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.396419 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 42.6702s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8144 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.31576 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 45.5359s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7365 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.749768 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 48.1157s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 12256 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.258442 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 50.5044s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6104 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.541438 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 52.9152s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8499 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.229973 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 55.2955s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8734 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0415588 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 57.6621s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6040 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.033944 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 59.8715s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6645 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.439731 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 62.3507s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7496 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.109627 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 64.8429s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7739 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.645456 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 67.3724s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7045 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.277836 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 69.973s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7439 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.189875 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 72.2982s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6833 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.649897 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 74.649s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7076 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0458904 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 76.9632s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6201 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0681739 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 79.32s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6171 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0500734 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 81.5864s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6078 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0849244 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 84.048s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7005 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.061381 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 86.467s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 7997 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.217894 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 88.8393s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8667 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0914458 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 91.2649s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8447 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.131517 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 93.6324s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8525 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.232059 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 96.0573s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8187 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.118361 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 98.4218s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8834 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.221015 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 100.628s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8126 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0208326 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 102.914s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6104 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0430143 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 105.195s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 8005 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.147742 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 107.451s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6564 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0490768 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 109.747s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 6500 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0535388 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 111.959s
+  minimize:     ||Fx||^2
+subject to: xi <= xj, ???j, j parent to i
+[Warning: deprecated. please call default_quadprog_param()] 
+[> In default_mosek_param (line 2)
+  In conic (line 41)
+  In monotonic_biharmonic (line 333)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Conic optimization using mosek...
+[Warning: 5999 violated constraints, try increasing MonotonicityEpsilon by max
+violation: +0.0144612 or increasing LEQScale ] 
+[> In monotonic_biharmonic (line 347)
+  In reconstructionTopo2D (line 37)
+  In run (line 96)] 
+Lap time: 114.272s
+Total elapsed time: 114.272s
+Average time per handle: 2.43132s
+Saving workspace data to /var/tmp/lastworkspace.mat
+Reconstruction completed.
+Saving Recon2D..

@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+#OAR -l /nodes=1/core=12/,walltime=02:59:00
+#OAR -E toto.stderr
+#OAR -O toto.stdout
+
+# Use the following command to go in your working directory (default is home)
+cd /home/nmiolane/cluster/Scripts/OASIS_full/
+
+Rscript TopologicalDenoising.R ${1}

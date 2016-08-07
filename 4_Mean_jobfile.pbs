@@ -1,0 +1,31 @@
+#!/bin/bash
+#
+#OAR -l /nodes=1/core=1/,walltime=02:59:00
+#OAR -E toto.stderr
+#OAR -O toto.stdout
+# The job use 1 nodes with 10 processor (core) per node,
+#
+# job duration is less than 2h59min
+# The job needs  4000MB per core
+# cd to the directory where the job was submitted
+# ! By default, torque use the user's home director
+
+
+# Use the following command to go in your working directory (default is home)
+#cd  /epi/asclepios2/mhadjham/OASIS_full/
+
+# The job
+
+iter2=`expr ${1} + 1`
+
+Nb_att=`grep -v '^\s*$' /home/nmiolane/cluster/Scripts/OASIS_full/List_All.txt | wc -l`
+Nb_ex=`ls -l /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0*_${1}_p1.2.nii.gz | wc -l`
+
+# attente de la creation de toutes 
+while [ "${Nb_ex}" != "${Nb_att}" ]; do
+sleep 10
+Nb_ex=`ls -l /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0*_${1}_p1.2.nii.gz | wc -l`
+done
+
+#My Mean
+/home/nmiolane/cluster/Scripts/OASIS_full/myMean2D/build/./myMean  /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Final_Image_0*_${1}_p1.2.nii.gz /home/nmiolane/cluster/Scripts/OASIS_full/MorseSmale/Atlases/Recon2D_temp_p1.2_${iter2}.nii.gz

@@ -1,0 +1,72 @@
+Loading required package: RColorBrewer
+Loading required package: methods
+Loading required package: awsMethods
+
+Use the function setCores() to change the number of CPU cores.
+
+Loading required package: gsl
+Reading RAW images requires to install dcraw, see 
+
+    http://cybercom.net/~dcoffin/dcraw/ for LINUX and http://www.insflug.org/raw/ 
+    for MAC OS and Windows 
+
+xdpyinfo:  unable to open display "".
+Loading required package: tcltk
+Loading required package: R.matlab
+R.matlab v3.3.0 (2015-09-22) successfully loaded. See ?R.matlab for help.
+
+Attaching package: 'R.matlab'
+
+The following objects are masked from 'package:base':
+
+    getOption, isOpen
+
+Loading required package: fastICA
+Loading required package: spam
+Loading required package: grid
+Spam version 1.3-0 (2015-10-24) is loaded.
+Type 'help( Spam)' or 'demo( spam)' for a short introduction 
+and overview of this package.
+Help for individual functions is also obtained by adding the
+suffix '.spam' to the function name, e.g. 'help( chol.spam)'.
+
+Attaching package: 'spam'
+
+The following objects are masked from 'package:base':
+
+    backsolve, forwardsolve
+
+Loading required package: maps
+
+ # ATTENTION: maps v3.0 has an updated 'world' map.        #
+ # Many country borders and names have changed since 1990. #
+ # Type '?world' or 'news(package="maps")'. See README_v3. #
+
+
+Loading required package: nlme
+This is mgcv 1.8-6. For overview type 'help("mgcv-package")'.
+Loading required package: abind
+Loading required package: magic
+
+Attaching package: 'magic'
+
+The following object is masked from 'package:mgcv':
+
+    magic
+
+The following object is masked from 'package:pracma':
+
+    magic
+
+Warning messages:
+1: In rgl.init(initValue, onlyNULL) : RGL: unable to open X11 display
+2: 'rgl_init' failed, running with rgl.useNULL = TRUE 
+3: running command 'xdpyinfo  | grep 'dimensions:' 2>/dev/null' had status 1 
+4: In fun(libname, pkgname) : no DISPLAY variable so Tk is not available
+
+     PLEASE NOTE:  As of version 0.3-5, no degenerate (zero area) 
+     regions are returned with the "Qt" option since the R 
+     code removes them from the triangulation. 
+     See help("delaunayn").
+
+

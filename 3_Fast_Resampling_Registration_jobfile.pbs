@@ -1,0 +1,44 @@
+#!/bin/bash
+#
+#OAR -l /nodes=1/core=1/,walltime=02:59:00
+#OAR -E toto.stderr
+#OAR -O toto.stdout
+# The job use 1 nodes with one processor (core) per node,
+#
+# job duration is less than 2h59min
+# The job needs  4000MB per core
+# cd to the directory where the job was submitted
+# ! By default, torque use the user's home directory
+
+cd $OAR_O_WORKDIR
+
+
+# Use the following command to go in your working directory (default is home)
+#cd  /epi/asclepios2/mhadjham/OASIS_full/
+
+# The job
+
+Emo_N4='/home/nmiolane/cluster/Scripts/OASIS_full'
+
+#Image Vect Difference
+/home/nmiolane/cluster/Scripts/OASIS_full/myVectDifference2D/build/./ImageVectDifference ${Emo_N4}/BCH_Atlas_t0_guimond/SVF_${1}_${2}_p1.2.mha ${Emo_N4}/BCH_Atlas_t0_guimond/Mean_SVF_${2}_p1.2.mha ${Emo_N4}/BCH_Atlas_t0_guimond/Diff_SVF_${1}_${2}_p1.2.mha
+
+#Nb_att=`grep -v '^\s*$' /home/nmiolane/cluster/Scripts/OASIS_full/List_All.txt | wc -l`
+#Nb_ex=`ls -l /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Diff_SVF_*_${2}_p1.2.mha | wc -l`
+
+# attente de la creation de toutes 
+#while [ "${Nb_ex}" != "${Nb_att}" ]; do
+#echo "attente..."
+#sleep 10
+#Nb_ex=`ls -l /home/nmiolane/cluster/Scripts/OASIS_full/BCH_Atlas_t0_guimond/Diff_SVF_*_${2}_p1.2.mha| wc -l`
+#done
+
+#SVF Exponential
+/home/nmiolane/cluster/Scripts/OASIS_full/SVFExp2D/build/./SVFExponential -i ${Emo_N4}/BCH_Atlas_t0_guimond/Diff_SVF_${1}_${2}_p1.2.mha -o ${Emo_N4}/BCH_Atlas_t0_guimond/Diff_Transfo_${1}_${2}_p1.2.mha -s 1.0 -e 1
+#/home/nmiolane/SVFExp/./SVFExponential -i ${Emo_N4}/BCH_Atlas_t0_guimond/Diff_SVF_${1}_${2}.mha -o ${Emo_N4}/BCH_Atlas_t0_guimond/Diff_Transfo_${1}_${2}.mha -s 1.0 -e 1
+
+#myWarpImage_BSpline
+/home/nmiolane/cluster/Scripts/OASIS_full/mywarpImage_BSpline2D/build/./myWarpImage_BSpline  ${Emo_N4}/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_${1}.nii.gz ${Emo_N4}/BCH_Atlas_t0_guimond/Diff_Transfo_${1}_${2}_p1.2.mha ${Emo_N4}/BCH_Atlas_t0_guimond/Final_Image_${1}_${2}_p1.2.nii.gz
+#/home/nmiolane/mywarpImage_BSpline/build/./myWarpImage_BSpline  ${Emo_N4}/Subject_${1}/Rigid_reg_intra/Final_S0MNI_spline_${1}.nii.gz ${Emo_N4}/BCH_Atlas_t0_guimond/Diff_Transfo_${1}_${2}.mha ${Emo_N4}/BCH_Atlas_t0_guimond/Final_Image_${1}_${2}.nii.gz
+
+

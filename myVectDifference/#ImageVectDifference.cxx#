@@ -1,0 +1,115 @@
+/*=========================================================================
+
+  Program:   Insight Segmentation & Registration Toolkit
+  Module:    $RCSfile: ImageReadWrite.cxx,v $
+  Language:  C++
+  Date:      $Date: 2009-03-17 20:36:50 $
+  Version:   $Revision: 1.20 $
+
+  Copyright (c) Insight Software Consortium. All rights reserved.
+  See ITKCopyright.txt or http://www.itk.org/HTML/Copyright.htm for details.
+
+     This software is distributed WITHOUT ANY WARRANTY; without even 
+     the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+     PURPOSE.  See the above copyright notices for more information.
+
+=========================================================================*/
+#if defined(_MSC_VER)
+#pragma warning ( disable : 4786 )
+#endif
+
+#ifdef __BORLANDC__
+#define ITK_LEAN_AND_MEAN
+#endif
+
+
+#include "itkImageFileReader.h"
+#include "itkImageFileWriter.h"
+// Software Guide : EndCodeSnippet
+#include <itkSubtractImageFilter.h>
+#include <itkImageRegionIterator.h>
+
+#include "itkImage.h"
+
+
+int main( int argc, char ** argv )
+{
+  // Verify the number of parameters in the command line
+  if( argc < 3 )
+    {
+    std::cerr << "Usage: " << std::endl;
+    std::cerr << argv[0] << " inputImageFile  outputImageFile " << std::endl;
+    return EXIT_FAILURE;
+    }
+  typedef itk::Vector<float,3>  VectorPixelType;
+  typedef itk::Image< VectorPixelType, 3 >    ImageType;
+  
+
+  typedef itk::ImageFileReader< ImageType >  ReaderType;
+  typedef itk::ImageFileWriter< ImageType >  WriterType;
+  
+  ReaderType::Pointer reader1 = ReaderType::New();
+  ReaderType::Pointer reader2 = ReaderType::New();
+  WriterType::Pointer writer = WriterType::New();
+ 
+    
+
+  reader1->SetFileName(argv[1]);
+  try
+  {
+    reader1->Update();
+  }
+  catch( itk::ExceptionObject & excep )
+  {
+    std::cerr << excep << std::endl;
+  }
+  reader2->SetFileName(argv[2]);
+  try
+  {
+    reader2->Update();
+  }
+  catch( itk::ExceptionObject & excep )
+  {
+    std::cerr << excep << std::endl;
+  }
+
+  :q
+typedef itk::ImageRegionIterator<ImageType> IteratorType;
+
+ImageType::Pointer Out1=ImageType::New();
+  Out1->SetRegions(reader1->GetOutput()->GetLargestPossibleRegion() );
+  Out1->SetSpacing( reader1->GetOutput()->GetSpacing() );
+  Out1->SetOrigin( reader1->GetOutput()->GetOrigin() );
+  Out1->SetDirection( reader1->GetOutput()->GetDirection() );
+  Out1->Allocate();
+  
+  IteratorType out1(Out1,reader1->GetOutput()->GetLargestPossibleRegion());
+
+  typedef itk::Index<3> IndexType;
+
+for (out1.GoToBegin();!out1.IsAtEnd();++out1) 
+{ const IndexType index=out1.GetIndex();
+  
+   out1.Set(((reader1->GetOutput()->GetPixel( index ))-(reader2->GetOutput()->GetPixel( index ))));
+    
+}
+   
+  
+  
+  writer->SetFileName( argv[3] );
+  writer->SetInput( Out1 );
+  
+  
+  
+try 
+  {
+    writer->Update();
+  }
+  catch( itk::ExceptionObject & excep )
+  {
+    std::cerr << excep << std::endl;
+  }
+
+
+  return EXIT_SUCCESS;
+}

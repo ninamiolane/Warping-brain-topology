@@ -1,0 +1,44 @@
+#!/bin/bash
+#
+#OAR -l /nodes=1/core=1/,walltime=02:59:00
+#OAR -E toto.stderr
+#OAR -O toto.stdout
+# The job use 1 nodes with one processor (core) per node,
+#
+# cd to the directory where the job was submitted
+# ! By default, torque use the user's home directory
+
+cd $OAR_O_WORKDIR
+
+# Use the following command to go in your working directory (default is home)
+#cd /epi/asclepios2/mhadjham/Emotivity/Emotivity_All_N4
+
+# The job
+
+#Emo_N4='/epi/asclepios2/mhadjham/OASIS_full'
+Emo_N4='/home/nmiolane/cluster/Scripts/OASIS_full'
+
+reg='2.0'
+tradeoff='0.15'
+fluid='4.0'
+#au lieu de 3.0
+
+reg2='0.0'
+lcc='3.0'
+it='30'
+it2='20'
+it3='10'
+iter2=`expr ${2} - 1`
+
+#Non-rigid Registation patients (affinely reg) / R0
+
+/data/asclepios/user/mrohe/Code/LCC/build/bin/rpiLCClogDemons -f ${Emo_N4}/MorseSmale/Atlases/Recon2D_p1.2_${2}.nii.gz  -m ${Emo_N4}/MorseSmale/Subjects2D/Real_SS_Final_S0MNI_spline_${1}.nii.gz --output-displacement-field Transform_${1}_${2}_p1.2.mha --output-transform SVF_${1}_${2}_p1.2.mha --output-image Real_SS_Final_S0MNI_to_fin_Ref_${1}_${2}_p1.2.nii.gz -r 2 -R 1 
+
+
+# -C ${lcc} -a ${it} -x ${reg2} -b ${reg} -S ${tradeoff} -u ${fluid} -V
+#-M ${Emo_N4}/Subject_${1}/Rigid_reg_intra/Bin_SS_Final_S0MNI_spline_${1}.nii.gz 
+
+#rm Transform_${subject}_${iter}.mha Final_S0MNI_to_fin_Ref_${subject}_${iter}.nii.gz
+#rm Transform_${1}_${2}.mha Final_S0MNI_to_fin_Ref_${1}_${2}.nii.gz
+
+
